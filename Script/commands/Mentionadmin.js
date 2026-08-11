@@ -11,9 +11,9 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event }) {
   const adminIDs = [
-    "100089047474463",
-    "100001039692046",
-    "100044713412032"
+    "100028959431665",
+    "61591654275272",
+    ""
   ].map(String);
 
   if (adminIDs.includes(String(event.senderID))) return;
@@ -40,7 +40,7 @@ module.exports.handleEvent = function({ api, event }) {
     "মেনশন না দিয়া বস বল বস 🥵💋",
     "কিরে তোর এতো সাহস আমার বসের নাম ধরিস 😾🫵",
     "এতো মেনশন না দিয়া তোর গার্লফ্রেন্ডটারে দিয়া দে 😹🐸",
-    "এইভাবে মেনশন করতাস, না জানি তুই প্রেমে পড়ছোস কিনা 😼❤️"
+    "এইভাবে মেনশন করতাসস, না জানি তুই প্রেমে পড়ছোস কিনা 😼❤️"
   ];
 
   return api.sendMessage(
