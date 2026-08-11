@@ -22,22 +22,22 @@ module.exports.run = async function({ api, event }) {
 ┌───────────────⭓
 │ 𝗢𝗪𝗡𝗘𝗥 𝗗𝗘𝗧𝗔𝗜𝗟𝗦
 ├───────────────
-│👤 𝐍𝐚𝐦𝐞 : SHAHADAT SAHU
+│👤 𝐍𝐚𝐦𝐞 : 𝐚𝐫𝐢𝐲𝐚𝐧 𝐚𝐡𝐦𝐞𝐝 𝐬𝐚𝐛𝐛𝐢𝐫
 │🚹 𝐆𝐞𝐧𝐝𝐞𝐫 : Maile
 │❤️ 𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧 : Single
-│🎂 𝐀𝐠𝐞 : 18+
+│🎂 𝐀𝐠𝐞 : 20+
 │🕌 𝐑𝐞𝐥𝐢𝐠𝐢𝐨𝐧 : Islam
-│🎓 𝐄𝐝𝐮𝐜𝐚𝐭𝐢𝐨𝐧 : HSC (2026)
-│🏡 𝐀𝐝𝐝𝐫𝐞𝐬𝐬 : Khagrachori 
+│🎓 𝐄𝐝𝐮𝐜𝐚𝐭𝐢𝐨𝐧 : 𝐠𝐟 𝐤𝐡𝐮𝐣𝐭𝐚𝐬𝐢
+│🏡 𝐀𝐝𝐝𝐫𝐞𝐬𝐬 : 𝐛𝐫𝐚𝐦𝐦𝐨𝐧𝐛𝐚𝐫𝐢𝐚
 └───────────────⭓
 
 ┌───────────────⭓
 │ 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗟𝗜𝗡𝗞𝗦
 ├───────────────
 │📘 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸:
-│https://fb.com/Uhasbbz
+│https://www.facebook.com/share/1D1fZfuww6/
 │💬 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽:
-│https://wa.me/01882333052
+│https://wa.me/01937278213
 └───────────────⭓
 
 ┌───────────────⭓
@@ -49,7 +49,7 @@ module.exports.run = async function({ api, event }) {
  attachment: fs.createReadStream(__dirname + "/cache/owner.jpg")
  }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/owner.jpg"));
 
- return request("https://i.imgur.com/g3hlQ0Z.jpeg") //এখানে আপনার ছবির Imgur link বসাবেন✅
+ return request("https://i.imgur.com/8T48Ddf.png") //এখানে আপনার ছবির Imgur link বসাবেন✅
  .pipe(fs.createWriteStream(__dirname + '/cache/owner.jpg'))
  .on('close', () => callback());
 };
