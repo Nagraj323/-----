@@ -19,32 +19,32 @@ module.exports.run = async function ({ api, event }) {
 ╔═════════════════════ ✿
 ║ ✨ 𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢 ✨
 ╠═════════════════════ ✿
-║ 👑 𝗡𝗮𝗺𝗲 : 𝗦𝗛𝗔𝗛𝗔𝗗𝗔𝗧 𝗦𝗔𝗛𝗨
-║ 🧸 𝗡𝗶𝗰𝗸 𝗡𝗮𝗺𝗲 : 𝗦𝗔𝗛𝗨
+║ 👑 𝗡𝗮𝗺𝗲 : 𝐚𝐫𝐢𝐲𝐚𝐧 𝐚𝐡𝐦𝐞𝐝 𝐬𝐚𝐛𝐛𝐢𝐫
+║ 🧸 𝗡𝗶𝗰𝗸 𝗡𝗮𝗺𝗲 : 𝐚𝐫𝐢𝐲𝐚𝐧
 ║ 🎂 𝗔𝗴𝗲 : 𝟭𝟴+
 ║ 💘 𝗥𝗲𝗹𝗮𝘁𝗶𝗼𝗻 : 𝗦𝗶𝗻𝗴𝗹𝗲
-║ 🎓 𝗣𝗿𝗼𝗳𝗲𝘀𝘀𝗶𝗼𝗻 : 𝗦𝘁𝘂𝗱𝗲𝗻𝘁
-║ 📚 𝗘𝗱𝘂𝗰𝗮𝘁𝗶𝗼𝗻 : 𝗛𝗦𝗖
-║ 🏡 𝗔𝗱𝗱𝗿𝗲𝘀𝘀 : 𝗞𝗵𝗮𝗴𝗿𝗮𝗰𝗵𝗮𝗿𝗶
+║ 🎓 𝗣𝗿𝗼𝗳𝗲𝘀𝘀𝗶𝗼𝗻 : 𝐠𝐟 𝐤𝐡𝐮𝐣𝐭𝐚𝐬𝐢
+║ 📚 𝗘𝗱𝘂𝗰𝗮𝘁𝗶𝗼𝗻 : 𝐬𝐬𝐜
+║ 🏡 𝗔𝗱𝗱𝗿𝗲𝘀𝘀 : 𝐛𝐫𝐚𝐦𝐦𝐨𝐧𝐛𝐚𝐫𝐢𝐚
 ╠═════════════════════ ✿
 ║ 🔗 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗟𝗜𝗡𝗞𝗦
 ╠═════════════════════ ✿
 ║ 📘 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸 :
-║ fb.com/100044713412032
+║ fb.com/100028959431665
 ║ 💬 𝗠𝗲𝘀𝘀𝗲𝗻𝗴𝗲𝗿 :
-║ m.me/100044713412032
+║ m.me/100028959431665
 ║ 📞 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 :
-║ wa.me/01882333052
+║ wa.me/01937278213
 ║ ✈️ 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 :
-║ t.me/yoursahu
+║ t.me/Its_Ariyan_x
 ╚═════════════════════ ✿
 `;
 
   const images = [
-    "https://i.imgur.com/gokzyKd.jpeg",
-    "https://i.imgur.com/g3hlQ0Z.jpeg",
-    "https://i.imgur.com/L7txp4M.jpeg",
-    "https://i.imgur.com/5dG8PS5.jpeg"
+    "https://imgur.com/8T48Ddf",
+    "https://i.imgur.com/8T48Ddf.png",
+    "https://imgur.com/8T48Ddf",
+    "https://i.imgur.com/8T48Ddf.png"
   ];
 
   const randomImg = images[Math.floor(Math.random() * images.length)];
