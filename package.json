@@ -4,7 +4,7 @@
   "description": "Made By SHAHADAT SAHU",
   "main": "Main.js",
   "engines": {
-    "node": "22.x",
+    "node": "20.x",
     "npm": ">=10.0.0 <13.0.0"
   },
   "scripts": {
